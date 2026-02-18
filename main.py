@@ -137,4 +137,3 @@ if __name__ == "__main__":
     flag_docstrings = '--docstrings' in sys.argv
     flag_debug = '--debug' in sys.argv
     obfuscate(sys.argv[1], sys.argv[2], obfuscate_docstrings=flag_docstrings, debug=flag_debug)
-
